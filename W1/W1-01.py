@@ -1,1 +1,1 @@
-#test
+print(diff rearrange1.py rearrange2.py)
