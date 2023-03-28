@@ -29,3 +29,5 @@ import os
 git status()
 git add W1-04.py
 git commit
+
+git log
