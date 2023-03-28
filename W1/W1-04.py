@@ -17,10 +17,15 @@
 # git commit
 
 #!/usr/bin/env python3
+
+def check_reboot():
+    """Return True if the computer has a pending reboot."""
+    return os.path.exist("/run/reboot-required")
+
 def main():
     pass
 main()
-
+import os
 git status()
 git add W1-04.py
 git commit
