@@ -11,4 +11,5 @@ def main():
         sys.exit(1)
     print("Everything ok.")
     sys.exit(0)
+    
 main()
