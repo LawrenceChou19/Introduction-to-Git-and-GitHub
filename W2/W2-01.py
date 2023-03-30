@@ -11,3 +11,11 @@ echo .DS_STORE > .gitignore
 ls -la
 git add .gitignore
 git commit -m 'Add a gitignore file, ignoring .DS_STORE files'
+
+git -p
+
+git reset
+
+git add*
+
+git commit -m "it should be os.path.exitst"
