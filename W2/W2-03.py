@@ -18,3 +18,19 @@ git branch -d even-better-feature
 
 
 git merge even-better-feature
+
+#create free_memory.py
+
+git commit -a -m 'Add comment to main()'
+
+git checkout even-better-feature 
+
+git commit -a -m 'Print everything is ok'
+
+git checkout main
+
+git merge even-better-feature 
+
+git Commit
+
+git log --graph --oneline
